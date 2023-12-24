@@ -1,0 +1,32 @@
+main {
+    margin: auto;
+    max-width: 48em;
+    padding: 1em;
+    font-family: monospace;
+    font-size: 120%;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: '-';
+    list-style-position: inside;
+}
+
+li + li {
+    margin-top: 0.5em;
+}
+
+h1 {
+    margin-bottom: 0;
+}
